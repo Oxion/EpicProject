@@ -1,0 +1,46 @@
+body {
+    background-color: #fafafa;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.raised-button {
+    background-color: #4282e2;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.raised-button:hover {
+    box-shadow: none;
+}
+
+.background-change-btn-wrapper {
+    display: inline-block;
+    height: 35px;
+    width: 270px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.electron-is-awesome {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.85);
+    height: 35px;
+    width: 270px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+}

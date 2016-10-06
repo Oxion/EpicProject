@@ -6,7 +6,7 @@ const BrowserWindow = electron.BrowserWindow
 
 // Удерживайте глобальное обращение к объекту окна, если Вы так не сделаете, то
 // окно само закроется после того, как объект будет собран сборщиком мусора.
-let mainWindow
+var mainWindow;
 
 function createWindow () {
   // Создаём окно браузера

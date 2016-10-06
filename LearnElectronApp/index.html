@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <h1>Привет, мир!</h1>
     Мы используем Node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     и Electron <script>document.write(process.versions.electron)</script>.
+    
+    <div class="background-change-btn-wrapper">
+        <div id="background-change-btn" class="raised-button">Push the button</div>
+    </div>
+    
   </body>
 </html>
