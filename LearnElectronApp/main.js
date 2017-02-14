@@ -17,7 +17,7 @@ function createWindow () {
 
   // Открываем DevTools.
   mainWindow.webContents.openDevTools()
-
+  
   // Будет выполнено, когда пользователь закроет окно
   mainWindow.on('closed', function () {
     // Убрать обращение на объект окна, обычно стоит хранить окна в массиве,
